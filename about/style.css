@@ -52,16 +52,22 @@ body {
     color: rgb(1, 1, 15);
 }
 #main h3{
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 60px;
+    margin-top: 40px;
 }
 
 #main p{
     margin-top: 20px;
     font-size: 30px;
 }
+.pera{
+    margin-left: 8px;
+    font-size: 20px;
+}
 #main h2{
-    margin:8px;
+    /* margin:0px 8px 8px; */
+    color: rgb(72, 10, 10);
 }
 .section{
     padding: 30px 50px;
