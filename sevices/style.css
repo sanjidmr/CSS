@@ -33,16 +33,21 @@ body {
     color: white;
     padding: 5px 10px;
 }
-#nav a:hover {
-  color: #140a0a;
-  box-shadow: 0px 0px 8px #4a2d2d;
-  width: 100px;
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;    
+    transition: transform 0.3s ease;
+}
+#nav ul li a:hover {
+    transform: translateY(-8px);  
 }
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
+    margin-top: 100px;
 }
 .div1{
     width: 50vw;

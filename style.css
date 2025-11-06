@@ -29,6 +29,19 @@ body {
     text-decoration: none;
     color: white;
     padding: 5px 10px;
+     transition: transform 0.3s ease;
+}
+#nav a:hover{
+    transform: translateY(-10px); 
+}
+#nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;    
+    transition: transform 0.3s ease;
+}
+#nav ul li a:hover {
+    transform: translateY(-8px);  
 }
 .div{
     display: flex;
@@ -52,8 +65,10 @@ body {
 .po{
     margin-top: 20px;
 }
-.pera{
-    font-size: 50px;
+h3{
+     font-size: 40px;
+    color: rgb(10, 10, 242);
+    text-transform: uppercase;
 }
 .div a{
     
